@@ -11,7 +11,7 @@ name: Sync yajuhua/podcast2/README.md
 on:
   workflow_dispatch:
   schedule:
-      - cron: '*/2 * * * *'
+      - cron: '*/6 * * * *'
 
 jobs:
   build:
